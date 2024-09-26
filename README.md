@@ -7,6 +7,6 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 A simple component to toggle between light and dark theme made with Angular.
 
-## Development server
+## Future improvements
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- [ ] Change interface to a more modern theme switcher.
