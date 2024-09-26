@@ -1,1 +1,43 @@
-/* You can add global styles to this file, and also import other style files */
+* {
+    font-family: "Lexend", system-ui;
+    font: larger;
+}
+
+:root {
+    --background-color: #f1f1f1;
+    --border-color: black;
+    --text-color: rgb(0, 0, 0);
+}
+
+.dark-theme {
+    --background-color: rgba(0, 0, 0, 0.789);
+    --border-color: rgb(201, 201, 110);
+    --text-color: #f1f1f1;
+}
+
+.toggle-theme {
+    display: flex;
+    align-items: center;
+}
+
+body {
+    font-family: "Lexend", system-ui;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    border: 5px solid;
+    /* background-color: var(--background-color); */
+    border-color: var(--border-color);
+    border-radius: 10px;
+}

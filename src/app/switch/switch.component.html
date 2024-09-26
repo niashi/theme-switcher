@@ -1,0 +1,13 @@
+<div class="container">
+    <div class="toggle-theme">
+      <h1>Toggle Theme! <fa-icon [icon]="faArrowRight"></fa-icon></h1>
+      <fa-icon
+        [icon]="isDarkTheme ? faSun : faMoon"
+        class="fa-2x"
+        style="margin-left: 10px; color: rgb(201, 201, 110)"
+      ></fa-icon>
+    </div>
+    <button (click)="toggleTheme()">
+      {{ isDarkTheme ? "Light Theme" : "Dark Theme" }}
+    </button>
+  </div>
